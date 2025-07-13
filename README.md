@@ -37,6 +37,3 @@ kubectl scale rs myapp-replicaset --replicas=7
 # 🧠 Tip: Apply with save-config if you plan to use kubectl apply later
 kubectl create --save-config -f replicasets.yaml
 
-# 📦 Bonus (Folder structure view)
-tree
-# → To check folder and YAML files neatly, especially useful for GitHub repo readme
