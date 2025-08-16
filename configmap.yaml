@@ -1,0 +1,17 @@
+metadata:
+  name: webapp-color
+  labels:
+    name: webapp-color
+---
+# (keep existing apiVersion/kind/metadata/spec structure)
+spec:
+  containers:
+  - name: webapp-color
+    image: kodekloud/webapp-color
+    imagePullPolicy: Always
+    env:
+    - name: APP_COLOR
+      valueFrom:
+        configMapKeyRef:
+          name: webapp-config-map
+          key: APP_COLOR
