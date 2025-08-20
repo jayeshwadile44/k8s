@@ -30,8 +30,6 @@ kubectl get replicaset                    # Shows RS with updated replica count
 kubectl get pods                          # Verifies new pods are Running
 kubectl get all                           # Lists all resources: pods, RC, RS, services
 
-Welcome..
-
 # 🔁 Optional: Scale RS without editing YAML
 kubectl scale rs myapp-replicaset --replicas=7
 # → Instantly scales without touching YAML (good for one-off/manual scaling)
