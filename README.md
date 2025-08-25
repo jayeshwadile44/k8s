@@ -36,3 +36,5 @@ kubectl scale rs myapp-replicaset --replicas=7
 
 # 🧠 Tip: Apply with save-config if you plan to use kubectl apply later
 kubectl create --save-config -f replicasets.yaml
+
+welcome 
